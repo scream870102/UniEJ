@@ -1,0 +1,18 @@
+{
+    "name": "UniEJ.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:56caad2a833979b4db1bf27121621635"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

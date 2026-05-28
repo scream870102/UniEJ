@@ -1,0 +1,16 @@
+{
+  "name": "com.scream870102.uniej",
+  "version": "0.1.0",
+  "displayName": "UniEJ",
+  "description": "Editor utils for Unity.",
+  "author": {
+    "name": "scream870102"
+  },
+  "samples": [
+    {
+      "displayName": "Samples",
+      "description": "Sample for editor job and build pipeline.",
+      "path": "Samples~/"
+    }
+  ]
+}
