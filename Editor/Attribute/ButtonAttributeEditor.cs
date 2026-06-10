@@ -9,9 +9,14 @@ using Object = UnityEngine.Object;
 
 namespace Scream.UniEJ.Editor
 {
+    [CustomEditor(typeof(EditorJobHelper))]
     [CanEditMultipleObjects]
-    [CustomEditor(typeof(Object), true, isFallback = true)]
-    public sealed class ButtonAttributeEditor : UnityEditor.Editor
+    public sealed class EditorJobHelperButtonEditor : ButtonAttributeEditor { }
+    [CustomEditor(typeof(Object))]
+    [CanEditMultipleObjects]
+    public sealed class ObjectButtonEditor : ButtonAttributeEditor { }
+
+    public class ButtonAttributeEditor : UnityEditor.Editor
     {
         private IReadOnlyList<ButtonMethod> _buttonMethods;
 
